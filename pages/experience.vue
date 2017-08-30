@@ -2,10 +2,19 @@
   <section>
     <div>
       <h1>EXPERIENCES</h1>
-      <h2>JM-PLUS (2016)</h2>
+      <h2>Education</h2>
       <h3>
-        Front-End Developer
+        Tatung University (2013-2017)
       </h3>
+      <p>
+        Bachelor of Science in Computer Science and Engineering
+      </p>
+
+      <h2>Work</h2>
+      <h3>JM-PLUS (2016)</h3>
+      <h4>
+        Front-End Developer
+      </h4>
       <ul>
         <li>
           Developed custom in-ear monitor website used on iPad using jQuery and Materialize
@@ -24,10 +33,10 @@
         </li>
       </ul>
 
-      <h2>inwinSTACK (Jul. 2015 - Aug. 2015)</h2>
-      <h3>
+      <h3>inwinSTACK (Jul. 2015 - Aug. 2015)</h3>
+      <h4>
         Intern
-      </h3>
+      </h4>
       <ul>
         <li>
           Surveyed the basic architecture and deploy Openstack.
