@@ -16,6 +16,7 @@
         <li>Materialize Framework</li>
         <li>Semantic-UI Framework</li>
         <li>Vue.js</li>
+        <li>D3.js</li>
       </ul>
 
       <h2>Languages</h2>
