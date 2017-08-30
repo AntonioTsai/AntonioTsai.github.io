@@ -17,7 +17,7 @@
       </h4>
       <ul>
         <li>
-          Developed custom in-ear monitor website used on iPad using jQuery and Materialize
+          Developed earphones customizer website used on iPad using jQuery and Materialize
         </li>
         <li>
           Improved UI and User Experience based on customer and salespeople's feedback.
