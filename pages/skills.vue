@@ -21,7 +21,7 @@
       <h2>Languages</h2>
       <ul>
         <li>Chinese</li>
-        <li>English</li>
+        <li>English (TOEIC 900 points)</li>
       </ul>
 
       <h2>Tools</h2>
