@@ -6,10 +6,6 @@
       #Vue.js #Semantic-UI
     </div>
     <div>
-      <h2>SF Comic Viewer</h2>
-      #jQuery
-    </div>
-    <div>
       <h2>TDOH Skilltree</h2>
       #D3.js #Semantic-UI
     </div>
