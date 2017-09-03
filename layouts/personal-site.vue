@@ -9,7 +9,7 @@
       </b-nav>
       <div class="brand">
         <b-img left rounded="circle" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
-        <h2 class="text-muted align-middle">蔡豐年 | Fung-Nien Tsai | Antonio</h2>
+        <h3 class="text-muted align-middle">蔡豐年 | Fung-Nien Tsai | Antonio</h3>
       </div>
     </div>
     <nuxt/>
@@ -17,14 +17,16 @@
 </template>
 
 <style lang="scss">
+$brand-size:50px;
+
 .brand {
-  h2 {
-    line-height: 60px;
+  h3 {
+    line-height: $brand-size;
   }
 
   img {
-    width: 60px;
-    height: 60px;
+    width: $brand-size;
+    height: $brand-size;
     margin-left: .5em;
     margin-right: .5em;
   }
