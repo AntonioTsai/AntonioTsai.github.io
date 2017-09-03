@@ -8,7 +8,7 @@
         <b-nav-item>Projects</b-nav-item>
         <b-nav-item>Contact</b-nav-item>
       </b-nav>
-      <h2 class="text-muted">Fung-Nien Tsai | Antonio</h2>
+      <h3 class="text-muted">蔡豐年 | Fung-Nien Tsai | Antonio</h3>
     </div>
     <nuxt/>
   </div>
