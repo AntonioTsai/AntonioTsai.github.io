@@ -6,7 +6,6 @@
         <b-nav-item>Skills</b-nav-item>
         <b-nav-item>Experiences</b-nav-item>
         <b-nav-item>Projects</b-nav-item>
-        <b-nav-item>Contact</b-nav-item>
       </b-nav>
       <div class="brand">
         <b-img left rounded="circle" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
