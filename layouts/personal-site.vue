@@ -9,7 +9,7 @@
         <b-nav-item>Contact</b-nav-item>
       </b-nav>
       <div class="brand">
-        <b-img left rounded="circle" width="60" height="60" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
+        <b-img left rounded="circle" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
         <h2 class="text-muted align-middle">蔡豐年 | Fung-Nien Tsai | Antonio</h2>
       </div>
     </div>
@@ -17,12 +17,21 @@
   </b-container>
 </template>
 
-<style>
-.brand h2 {
-  line-height: 60px;
+<style lang="scss">
+.brand {
+  h2 {
+    line-height: 60px;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+    margin-left: .5em;
+    margin-right: .5em;
+  }
 }
 
 body {
-  padding-top: 2.5rem;
+  padding-top: 2.5rem
 }
 </style>
