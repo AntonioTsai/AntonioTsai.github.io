@@ -13,3 +13,9 @@
     <nuxt/>
   </div>
 </template>
+
+<style>
+body {
+  padding-top: 2.5rem;
+}
+</style>
