@@ -8,7 +8,10 @@
         <b-nav-item>Projects</b-nav-item>
         <b-nav-item>Contact</b-nav-item>
       </b-nav>
-      <h3 class="text-muted">蔡豐年 | Fung-Nien Tsai | Antonio</h3>
+      <div class="clearfix row">
+        <b-img rounded="circle" width="60" height="60" class="float-left" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
+        <h2 class="text-muted my-auto">蔡豐年 | Fung-Nien Tsai | Antonio</h2>
+      </div>
     </div>
     <nuxt/>
   </div>
