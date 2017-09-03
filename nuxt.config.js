@@ -14,6 +14,16 @@ module.exports = {
     ]
   },
   /*
+  ** Use Bootstrap-Vue
+  */
+  modules: [
+    // Simple usage
+    '@nuxtjs/bootstrap-vue',
+
+    // With options
+    // ['@nuxtjs/bootstrap-vue', { css: false }],
+  ],
+  /*
   ** Customize the progress-bar color
   */
   loading: { color: '#3B8070' },
@@ -24,7 +34,7 @@ module.exports = {
     /*
     ** Run ESLINT on save
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',
