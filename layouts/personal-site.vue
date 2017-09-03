@@ -1,7 +1,7 @@
 <template>
   <b-container>
     <div class="header clearfix">
-      <b-nav tabs class="float-right">
+      <b-nav tabs class="float-right d-none d-lg-flex">
         <b-nav-item href="/about" active>About Me</b-nav-item>
         <b-nav-item href="/skills">Skills</b-nav-item>
         <b-nav-item href="experiences">Experiences</b-nav-item>
