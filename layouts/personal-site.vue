@@ -32,6 +32,10 @@ $brand-size:50px;
   }
 }
 
+.header {
+  padding-bottom: 1rem;
+}
+
 body {
   padding-top: 2.5rem
 }
