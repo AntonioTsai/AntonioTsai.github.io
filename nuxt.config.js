@@ -3,7 +3,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'nuxt-personal-website',
+    title: 'Antonio\'s Page',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,6 +13,16 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  /*
+  ** Use Bootstrap-Vue
+  */
+  modules: [
+    // Simple usage
+    '@nuxtjs/bootstrap-vue',
+
+    // With options
+    // ['@nuxtjs/bootstrap-vue', { css: false }],
+  ],
   /*
   ** Customize the progress-bar color
   */
@@ -24,7 +34,7 @@ module.exports = {
     /*
     ** Run ESLINT on save
     */
-    extend (config, ctx) {
+    extend(config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({
           enforce: 'pre',

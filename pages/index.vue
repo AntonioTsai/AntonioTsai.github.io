@@ -3,10 +3,10 @@
     <div>
       <logo/>
       <h1 class="title">
-        nuxt-personal-website
+        Fung-Nien Tsai
       </h1>
       <h2 class="subtitle">
-        Nuxt.js project
+        FRONT-END DEVELOPER
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
@@ -36,7 +36,8 @@ export default {
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  /* 1 */
   display: block;
   font-weight: 300;
   font-size: 100px;
