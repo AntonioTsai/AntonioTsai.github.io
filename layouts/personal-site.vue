@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <b-container>
     <div class="header">
       <b-nav tabs class="float-right">
         <b-nav-item active>About Me</b-nav-item>
@@ -14,7 +14,7 @@
       </div>
     </div>
     <nuxt/>
-  </div>
+  </b-container>
 </template>
 
 <style>
