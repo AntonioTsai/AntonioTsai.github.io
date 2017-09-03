@@ -2,10 +2,10 @@
   <b-container>
     <div class="header clearfix">
       <b-nav tabs class="float-right">
-        <b-nav-item active>About Me</b-nav-item>
-        <b-nav-item>Skills</b-nav-item>
-        <b-nav-item>Experiences</b-nav-item>
-        <b-nav-item>Projects</b-nav-item>
+        <b-nav-item href="/about" active>About Me</b-nav-item>
+        <b-nav-item href="/skills">Skills</b-nav-item>
+        <b-nav-item href="experiences">Experiences</b-nav-item>
+        <b-nav-item href="projects">Projects</b-nav-item>
       </b-nav>
       <div class="brand">
         <b-img left rounded="circle" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
