@@ -8,7 +8,7 @@
         <b-nav-item href="projects">Projects</b-nav-item>
       </b-nav>
       <b-nav class="float-right d-lg-none">
-        <b-nav-item-dropdown id="icon_menu">
+        <b-nav-item-dropdown id="icon_menu" no-caret>
           <img slot="button-content" src="~/assets/ic_menu_black_18dp_2x.png" alt="">
           <b-dropdown-item>About Me</b-dropdown-item>
           <b-dropdown-item>Skills</b-dropdown-item>
