@@ -20,6 +20,17 @@
             <b-nav-item href="experiences">Experiences</b-nav-item>
             <b-nav-item href="projects">Projects</b-nav-item>
           </b-nav>
+
+          <!-- nav for screen size >= .md(768px) -->
+          <b-nav-item-dropdown no-caret class="d-none d-md-flex d-lg-none" right>
+            <!-- Using button-content slot -->
+            <img slot="button-content" src="~/assets/ic_menu_black_18dp_2x.png" alt="">
+            <b-dropdown-item>About Me</b-dropdown-item>
+            <b-dropdown-item>Skills</b-dropdown-item>
+            <b-dropdown-item>Experiences</b-dropdown-item>
+            <b-dropdown-item>Projects</b-dropdown-item>
+          </b-nav-item-dropdown>
+
         </b-nav>
       </b-collapse>
     </b-navbar>
