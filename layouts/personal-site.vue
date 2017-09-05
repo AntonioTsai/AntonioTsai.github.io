@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <b-navbar toggleable="md" sticky>
+    <b-navbar toggleable="md" class="header" variant="light" type="light" sticky>
 
       <!-- Brand part -->
       <b-navbar-brand href="#" class="brand">
