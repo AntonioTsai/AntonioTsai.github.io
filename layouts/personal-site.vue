@@ -5,13 +5,26 @@
       <!-- Brand part -->
       <b-navbar-brand href="#" class="brand">
         <b-img left rounded="circle" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
-        <h3 class="text-muted">蔡豐年 | Fung-Nien Tsai | Antonio</h3>
+        <h3 class="text-muted d-none d-md-block">蔡豐年 / Antonio / Fung-Nien Tsai</h3>
       </b-navbar-brand>
 
       <!-- nav collapse button -->
       <b-nav-toggle target="nav_collapse" class="ml-auto"><img src="~/assets/ic_menu_black_18dp_2x.png" alt=""></b-nav-toggle>
 
       <b-collapse is-nav id="nav_collapse">
+        <!-- Nav items nav for screen size < md(992px) -->
+        <b-nav is-nav-bar class="d-md-none" right>
+          <b-nav-text class="brand">
+            蔡豐年 / Antonio /
+            <span>
+              Fung-Nien Tsai
+            </span>
+          </b-nav-text>
+          <b-nav-item href="/about" active>About Me</b-nav-item>
+          <b-nav-item href="/skills">Skills</b-nav-item>
+          <b-nav-item href="experiences">Experiences</b-nav-item>
+          <b-nav-item href="projects">Projects</b-nav-item>
+        </b-nav>
 
         <!-- Right aligned nav items nav for screen size >= lg(992px) -->
         <b-nav tabs class="ml-lg-auto d-none d-lg-flex" right>
