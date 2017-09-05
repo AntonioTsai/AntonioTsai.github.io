@@ -2,15 +2,15 @@
   <b-container>
     <b-navbar toggleable="md" sticky>
 
-      <b-nav-toggle target="nav_collapse"></b-nav-toggle>
+      <b-nav-toggle target="nav_collapse" class="ml-auto"><img src="~/assets/ic_menu_black_18dp_2x.png" alt=""></b-nav-toggle>
 
+      <!-- Brand part -->
       <b-navbar-brand href="#" class="brand">
         <b-img left rounded="circle" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
-        <h3 class="text-muted align-middle">蔡豐年 | Fung-Nien Tsai | Antonio</h3>
+        <h3 class="text-muted">蔡豐年 | Fung-Nien Tsai | Antonio</h3>
       </b-navbar-brand>
 
       <b-collapse is-nav id="nav_collapse">
-
         <!-- Right aligned nav items -->
         <b-nav is-nav-bar class="ml-auto">
           <!-- nav for screen size >= lg(992px) -->
@@ -30,7 +30,6 @@
             <b-dropdown-item>Experiences</b-dropdown-item>
             <b-dropdown-item>Projects</b-dropdown-item>
           </b-nav-item-dropdown>
-
         </b-nav>
       </b-collapse>
     </b-navbar>
