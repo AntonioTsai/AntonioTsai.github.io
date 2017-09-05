@@ -43,3 +43,9 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  layout: 'personal-site'
+}
+</script>

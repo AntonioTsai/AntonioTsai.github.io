@@ -1,9 +1,6 @@
 <template>
   <section class="containner">
     <div>
-      <h1>
-        About Me
-      </h1>
       <p>
         喜歡研究各式各樣的網頁開發技術，對於跟視覺化相關的技術都很感興趣，只要是關於網站開發的技術都樂於學習。
       </p>
@@ -13,3 +10,9 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  layout: 'personal-site'
+}
+</script>
