@@ -81,4 +81,9 @@ $brand-size:50px;
 body {
   padding-top: 2.5rem
 }
+
+nav.header {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 </style>
