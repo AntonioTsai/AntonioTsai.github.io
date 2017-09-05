@@ -1,13 +1,19 @@
 <template>
   <b-container>
-    <div class="header clearfix">
-      <b-nav tabs class="float-right d-none d-lg-flex">
+    <div class="header clearfix d-none d-lg-block">
+      <b-nav tabs class="float-right">
         <b-nav-item href="/about" active>About Me</b-nav-item>
         <b-nav-item href="/skills">Skills</b-nav-item>
         <b-nav-item href="experiences">Experiences</b-nav-item>
         <b-nav-item href="projects">Projects</b-nav-item>
       </b-nav>
-      <b-nav class="float-right d-lg-none">
+      <div class="brand">
+        <b-img left rounded="circle" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
+        <h3 class="text-muted align-middle">蔡豐年 | Fung-Nien Tsai | Antonio</h3>
+      </div>
+    </div>
+    <div class="header clearfix d-none d-md-block d-lg-none">
+      <b-nav class="float-right">
         <b-nav-item-dropdown id="icon_menu" no-caret right>
           <img slot="button-content" src="~/assets/ic_menu_black_18dp_2x.png" alt="">
           <b-dropdown-item>About Me</b-dropdown-item>
@@ -21,6 +27,7 @@
         <h3 class="text-muted align-middle">蔡豐年 | Fung-Nien Tsai | Antonio</h3>
       </div>
     </div>
+
     <nuxt/>
   </b-container>
 </template>
