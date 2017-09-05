@@ -56,6 +56,8 @@
 $brand-size:50px;
 
 .brand {
+  font-size: 1.5rem;
+
   h3 {
     line-height: $brand-size;
   }
@@ -63,8 +65,12 @@ $brand-size:50px;
   img {
     width: $brand-size;
     height: $brand-size;
-    margin-left: .5em;
-    margin-right: .5em;
+    margin-left: .5rem;
+    margin-right: .5rem;
+  }
+
+  span {
+    white-space: nowrap;
   }
 }
 
