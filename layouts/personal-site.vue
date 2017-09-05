@@ -12,6 +12,7 @@
       <b-nav-toggle target="nav_collapse" class="ml-auto"><img src="~/assets/ic_menu_black_18dp_2x.png" alt=""></b-nav-toggle>
 
       <b-collapse is-nav id="nav_collapse">
+
         <!-- Nav items nav for screen size < md(992px) -->
         <b-nav is-nav-bar class="d-md-none" right>
           <b-nav-text class="brand">
@@ -37,6 +38,7 @@
         <!-- Right aligned nav items for screen size >= .md(768px) -->
         <b-nav is-nav-bar class="ml-md-auto d-none d-md-flex d-lg-none">
           <b-nav-item-dropdown no-caret right>
+
             <!-- Using button-content slot -->
             <img slot="button-content" src="~/assets/ic_menu_black_18dp_2x.png" alt="">
             <b-dropdown-item>About Me</b-dropdown-item>
