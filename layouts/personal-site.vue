@@ -2,27 +2,28 @@
   <b-container>
     <b-navbar toggleable="md" sticky>
 
-      <b-nav-toggle target="nav_collapse" class="ml-auto"><img src="~/assets/ic_menu_black_18dp_2x.png" alt=""></b-nav-toggle>
-
       <!-- Brand part -->
       <b-navbar-brand href="#" class="brand">
         <b-img left rounded="circle" src="https://www.gravatar.com/avatar/28150f77152f009b564a81c0a0b603e1" alt="Gravatar"></b-img>
         <h3 class="text-muted">蔡豐年 | Fung-Nien Tsai | Antonio</h3>
       </b-navbar-brand>
 
-      <b-collapse is-nav id="nav_collapse">
-        <!-- Right aligned nav items -->
-        <b-nav is-nav-bar class="ml-auto">
-          <!-- nav for screen size >= lg(992px) -->
-          <b-nav tabs class="d-none d-lg-flex">
-            <b-nav-item href="/about" active>About Me</b-nav-item>
-            <b-nav-item href="/skills">Skills</b-nav-item>
-            <b-nav-item href="experiences">Experiences</b-nav-item>
-            <b-nav-item href="projects">Projects</b-nav-item>
-          </b-nav>
+      <!-- nav collapse button -->
+      <b-nav-toggle target="nav_collapse" class="ml-auto"><img src="~/assets/ic_menu_black_18dp_2x.png" alt=""></b-nav-toggle>
 
-          <!-- nav for screen size >= .md(768px) -->
-          <b-nav-item-dropdown no-caret class="d-none d-md-flex d-lg-none" right>
+      <b-collapse is-nav id="nav_collapse">
+
+        <!-- Right aligned nav items nav for screen size >= lg(992px) -->
+        <b-nav tabs class="ml-lg-auto d-none d-lg-flex" right>
+          <b-nav-item href="/about" active>About Me</b-nav-item>
+          <b-nav-item href="/skills">Skills</b-nav-item>
+          <b-nav-item href="experiences">Experiences</b-nav-item>
+          <b-nav-item href="projects">Projects</b-nav-item>
+        </b-nav>
+
+        <!-- Right aligned nav items for screen size >= .md(768px) -->
+        <b-nav is-nav-bar class="ml-md-auto d-none d-md-flex d-lg-none">
+          <b-nav-item-dropdown no-caret right>
             <!-- Using button-content slot -->
             <img slot="button-content" src="~/assets/ic_menu_black_18dp_2x.png" alt="">
             <b-dropdown-item>About Me</b-dropdown-item>
