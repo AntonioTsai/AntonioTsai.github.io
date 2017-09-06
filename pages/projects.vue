@@ -15,3 +15,12 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  fetch ({ store, params }) {
+    store.commit('setPageTitle', 'projects')
+  },
+  layout: 'personal-site'
+}
+</script>

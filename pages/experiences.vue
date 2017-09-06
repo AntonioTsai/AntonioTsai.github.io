@@ -48,3 +48,12 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  fetch ({ store, params }) {
+    store.commit('setPageTitle', 'experiences')
+  },
+  layout: 'personal-site'
+}
+</script>

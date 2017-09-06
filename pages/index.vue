@@ -1,59 +1,21 @@
 <template>
-  <section class="container">
+  <section class="containner">
     <div>
-      <logo/>
-      <h1 class="title">
-        Fung-Nien Tsai
-      </h1>
-      <h2 class="subtitle">
-        FRONT-END DEVELOPER
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
+      <p>
+        喜歡研究各式各樣的網頁開發技術，對於跟視覺化相關的技術都很感興趣，只要是關於網站開發的技術都樂於學習。
+      </p>
+      <p>
+        能自動化的事，就不要手動處理，興趣是利用自己所擁有的技術去開發使生活更便利的小工具。
+      </p>
     </div>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
+  fetch ({ store, params }) {
+    store.commit('setPageTitle', 'index')
+  },
+  layout: 'personal-site'
 }
 </script>
-
-<style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
