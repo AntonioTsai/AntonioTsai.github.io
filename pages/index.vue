@@ -13,6 +13,9 @@
 
 <script>
 export default {
+  fetch ({ store, params }) {
+    store.commit('setPageTitle', 'index')
+  },
   layout: 'personal-site'
 }
 </script>

@@ -46,6 +46,9 @@
 
 <script>
 export default {
+  fetch ({ store, params }) {
+    store.commit('setPageTitle', 'skills')
+  },
   layout: 'personal-site'
 }
 </script>
