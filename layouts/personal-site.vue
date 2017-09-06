@@ -21,18 +21,18 @@
               Fung-Nien Tsai
             </span>
           </b-nav-text>
-          <b-nav-item href="/" v-bind:active="current_page === 'index'">About Me</b-nav-item>
-          <b-nav-item href="/skills" v-bind:active="current_page === 'skills'">Skills</b-nav-item>
-          <b-nav-item href="experiences" v-bind:active="current_page === 'experiences'">Experiences</b-nav-item>
-          <b-nav-item href="projects" v-bind:active="current_page === 'projects'">Projects</b-nav-item>
+          <b-nav-item href="/" v-bind:active="$store.state.pageTitle === 'index'">About Me</b-nav-item>
+          <b-nav-item href="/skills" v-bind:active="$store.state.pageTitle === 'skills'">Skills</b-nav-item>
+          <b-nav-item href="experiences" v-bind:active="$store.state.pageTitle === 'experiences'">Experiences</b-nav-item>
+          <b-nav-item href="projects" v-bind:active="$store.state.pageTitle === 'projects'">Projects</b-nav-item>
         </b-nav>
 
         <!-- Right aligned nav items nav for screen size >= lg(992px) -->
         <b-nav tabs class="ml-lg-auto d-none d-lg-flex" right>
-          <b-nav-item href="/" v-bind:active="current_page === 'index'">About Me</b-nav-item>
-          <b-nav-item href="/skills" v-bind:active="current_page === 'skills'">Skills</b-nav-item>
-          <b-nav-item href="experiences" v-bind:active="current_page === 'experiences'">Experiences</b-nav-item>
-          <b-nav-item href="projects" v-bind:active="current_page === 'projects'">Projects</b-nav-item>
+          <b-nav-item href="/" v-bind:active="$store.state.pageTitle === 'index'">About Me</b-nav-item>
+          <b-nav-item href="/skills" v-bind:active="$store.state.pageTitle === 'skills'">Skills</b-nav-item>
+          <b-nav-item href="experiences" v-bind:active="$store.state.pageTitle === 'experiences'">Experiences</b-nav-item>
+          <b-nav-item href="projects" v-bind:active="$store.state.pageTitle === 'projects'">Projects</b-nav-item>
         </b-nav>
 
         <!-- Right aligned nav items for screen size >= .md(768px) -->
@@ -41,10 +41,10 @@
 
             <!-- Using button-content slot -->
             <img slot="button-content" src="~/assets/ic_menu_black_18dp_2x.png" alt="">
-            <b-dropdown-item href="/" v-bind:active="current_page === 'index'">About Me</b-dropdown-item>
-            <b-dropdown-item href="/skills" v-bind:active="current_page === 'skills'">Skills</b-dropdown-item>
-            <b-dropdown-item href="experiences" v-bind:active="current_page === 'experiences'">Experiences</b-dropdown-item>
-            <b-dropdown-item href="projects" v-bind:active="current_page === 'projects'">Projects</b-dropdown-item>
+            <b-dropdown-item href="/" v-bind:active="$store.state.pageTitle === 'index'">About Me</b-dropdown-item>
+            <b-dropdown-item href="/skills" v-bind:active="$store.state.pageTitle === 'skills'">Skills</b-dropdown-item>
+            <b-dropdown-item href="experiences" v-bind:active="$store.state.pageTitle === 'experiences'">Experiences</b-dropdown-item>
+            <b-dropdown-item href="projects" v-bind:active="$store.state.pageTitle === 'projects'">Projects</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-nav>
       </b-collapse>
