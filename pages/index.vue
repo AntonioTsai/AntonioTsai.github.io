@@ -6,13 +6,15 @@
         <del>人性就是懶惰。</del>
       </p>
       <hr class="mx-5 my-4">
-      <template v-for="button in contacts">
-        <div class="col md-4" :key="`_${button.name}`">
-          <b-button :variant="button.variant">
-            <img :src="button.icon"> {{ button.name }}
-          </b-button>
-        </div>
-      </template>
+      <b-row class="justify-content-lg-center">
+        <template v-for="button in contacts">
+          <b-col col md="auto" :key="`_${button.name}`">
+            <b-button :variant="button.variant">
+              <img :src="button.icon"> {{ button.name }}
+            </b-button>
+          </b-col>
+        </template>
+      </b-row>
     </b-jumbotron>
   </section>
 </template>
