@@ -6,11 +6,11 @@
         <del>人性就是懶惰</del>。
       </p>
       <hr class="mx-5 my-4">
-      <b-row class="justify-content-lg-center">
+      <b-row class="justify-content-center">
         <template v-for="button in contacts">
-          <b-col col md="auto" :key="`_${button.name}`">
-            <b-button :variant="button.variant">
-              <img :src="button.icon"> {{ button.name }}
+          <b-col cols="auto" :key="`_${button.name}`">
+            <b-button block :variant="button.variant">
+              <img class="icon" :src="button.icon"> {{ button.name }}
             </b-button>
           </b-col>
         </template>
