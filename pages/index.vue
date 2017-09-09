@@ -36,13 +36,13 @@ export default {
         {
           herf: 'mailto:antonio.tsaii@gmail.com',
           icon: require('~/assets/ic_mail_outline_white_18dp_1x.png'),
-          name: 'antonio.tsaii@gmail.com',
+          name: '',
           variant: 'outline-sucess'
         },
         {
           herf: 'http://github.com/AntonioTsai',
           icon: require('~/assets/GitHub-Mark-Light-32px.png'),
-          name: 'AntonioTsai',
+          name: '',
           variant: 'outline-sucess'
         }]
     }
