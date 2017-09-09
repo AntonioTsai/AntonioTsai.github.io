@@ -9,7 +9,7 @@
       <b-row class="justify-content-center">
         <template v-for="button in contacts">
           <b-col cols="auto" :key="`_${button.name}`">
-            <b-button block :variant="button.variant">
+            <b-button block :variant="button.variant" :href="button.href">
               <img class="icon" :src="button.icon"> {{ button.name }}
             </b-button>
           </b-col>
@@ -28,22 +28,22 @@ export default {
     return {
       contacts: [
         {
-          herf: '#Resume_Download_Link',
+          href: '#Resume_Download_Link',
           icon: require('~/assets/ic_file_download_white_18dp_1x.png'),
           name: 'Resume',
           variant: 'primary'
         },
         {
-          herf: 'mailto:antonio.tsaii@gmail.com',
-          icon: require('~/assets/ic_mail_outline_white_18dp_1x.png'),
+          href: 'mailto:antonio.tsaii@gmail.com',
+          icon: require('~/assets/ic_mail_outline_black_18dp_1x.png'),
           name: '',
-          variant: 'outline-sucess'
+          variant: 'link'
         },
         {
-          herf: 'http://github.com/AntonioTsai',
-          icon: require('~/assets/GitHub-Mark-Light-32px.png'),
+          href: 'http://github.com/AntonioTsai',
+          icon: require('~/assets/GitHub-Mark-32px.png'),
           name: '',
-          variant: 'outline-sucess'
+          variant: 'link'
         }]
     }
   },
