@@ -6,9 +6,9 @@
         <del>人性就是懶惰。</del>
       </p>
       <hr class="mx-5 my-4">
-      <b-btn variant="primary" href="#">
+      <b-button variant="primary" href="#">
         <img src="~/assets/ic_file_download_white_18dp_1x.png" alt=""> Resume
-      </b-btn>
+      </b-button>
     </b-jumbotron>
   </section>
 </template>
