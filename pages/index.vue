@@ -6,9 +6,13 @@
         <del>人性就是懶惰。</del>
       </p>
       <hr class="mx-5 my-4">
-      <b-button variant="primary" href="#">
-        <img src="~/assets/ic_file_download_white_18dp_1x.png" alt=""> Resume
-      </b-button>
+      <template v-for="button in contacts">
+        <div class="col md-4" :key="`_${button.name}`">
+          <b-button :variant="button.variant">
+            <img :src="button.icon"> {{ button.name }}
+          </b-button>
+        </div>
+      </template>
     </b-jumbotron>
   </section>
 </template>
@@ -17,6 +21,29 @@
 export default {
   fetch ({ store, params }) {
     store.commit('setPageTitle', 'index')
+  },
+  data () {
+    return {
+      contacts: [
+        {
+          herf: '#Resume_Download_Link',
+          icon: require('~/assets/ic_file_download_white_18dp_1x.png'),
+          name: 'Resume',
+          variant: 'primary'
+        },
+        {
+          herf: 'mailto:antonio.tsaii@gmail.com',
+          icon: require('~/assets/ic_mail_outline_white_18dp_1x.png'),
+          name: 'antonio.tsaii@gmail.com',
+          variant: 'outline-sucess'
+        },
+        {
+          herf: 'http://github.com/AntonioTsai',
+          icon: require('~/assets/GitHub-Mark-Light-32px.png'),
+          name: 'AntonioTsai',
+          variant: 'outline-sucess'
+        }]
+    }
   },
   layout: 'personal-site'
 }
