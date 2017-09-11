@@ -19,12 +19,14 @@
       <b-row class="justify-content-center">
         <template v-for="button in contacts">
           <b-col cols="12" :key="`_${button.name}`">
-            <p>{{ button.name + ': ' }}
+            <address>
+              <strong>{{ button.name + ': ' }}</strong>
               <a :href="button.href">{{ button.text }}</a>
-            </p>
+            </address>
           </b-col>
         </template>
       </b-row>
+
     </b-jumbotron>
   </section>
 </template>
