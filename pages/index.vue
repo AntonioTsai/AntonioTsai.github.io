@@ -36,23 +36,21 @@ export default {
     return {
       contacts: [
         {
-          href: '#Resume_Download_Link',
-          icon: require('~/assets/ic_file_download_white_18dp_1x.png'),
-          name: 'Resume',
-          variant: 'primary'
+          href: 'https://github.com/AntonioTsai',
+          name: 'GitHub',
+          text: 'https://github.com/AntonioTsai'
         },
         {
           href: 'mailto:antonio.tsaii@gmail.com',
-          icon: require('~/assets/ic_mail_outline_black_18dp_1x.png'),
-          name: '',
-          variant: 'link'
-        },
-        {
-          href: 'http://github.com/AntonioTsai',
-          icon: require('~/assets/GitHub-Mark-32px.png'),
-          name: '',
-          variant: 'link'
-        }]
+          name: 'Email',
+          text: 'antonio.tsaii@gmail.com'
+        }
+      ],
+      resume: {
+        href: '#Resume_Download_Link',
+        icon: 'file_download',
+        text: 'Download'
+      }
     }
   },
   layout: 'personal-site'
