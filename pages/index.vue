@@ -26,13 +26,9 @@
         </b-col>
         <b-col cols="12" lg="6">
           <h2>Resume</h2>
-          <b-row class="justify-content-center">
-            <b-col cols="auto">
-              <b-button variant="primary" size="sm" :href="resume.href" class="resume">{{ resume.text}}
-                <i class="material-icons align-middle">{{ resume.icon }}</i>
-              </b-button>
-            </b-col>
-          </b-row>
+          <b-button variant="primary" size="sm" :href="resume.href" class="resume mt-3">{{ resume.text}}
+            <i class="material-icons align-middle">{{ resume.icon }}</i>
+          </b-button>
         </b-col>
       </b-row>
     </b-jumbotron>
