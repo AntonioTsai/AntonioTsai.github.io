@@ -1,10 +1,10 @@
 <template>
   <section class="containner">
     <b-jumbotron class="text-center">
-      <h1 slot="header" class="display-4">About Me</h1>
-      <p slot="lead" class="mx-5 my-2">喜歡研究各式各樣的網頁開發技術，對視覺化相關的技術很感興趣，只要是關於網站開發的技術都樂於學習。偶爾會設計些小工具讓生活可以過的更便利點，能自動化的事，就不要手動處理，畢竟，科技始終於人性，
+      <template slot="header" class="display-4">About Me</template>
+      <template slot="lead" class="mx-5 my-2">喜歡研究各式各樣的網頁開發技術，對視覺化相關的技術很感興趣，只要是關於網站開發的技術都樂於學習。偶爾會設計些小工具讓生活可以過的更便利點，能自動化的事，就不要手動處理，畢竟，科技始終於人性，
         <del>人性就是懶惰</del>。
-      </p>
+      </template>
       <hr class="mx-5 my-4">
       <h2>Resume</h2>
       <b-row class="justify-content-center">
@@ -16,13 +16,15 @@
       </b-row>
       <hr class="mx-5 my-4">
       <h2>Contact</h2>
-      <template v-for="button in contacts">
-        <b-col cols="auto" :key="`_${button.name}`">
-          <p>{{ button.name + ': ' }}
-            <a :href="button.href">{{ button.text }}</a>
-          </p>
-        </b-col>
-      </template>
+      <b-row class="justify-content-center">
+        <template v-for="button in contacts">
+          <b-col cols="12" :key="`_${button.name}`">
+            <p>{{ button.name + ': ' }}
+              <a :href="button.href">{{ button.text }}</a>
+            </p>
+          </b-col>
+        </template>
+      </b-row>
     </b-jumbotron>
   </section>
 </template>
