@@ -1,6 +1,6 @@
 <template>
   <b-container>
-    <b-navbar toggleable="md" class="header" variant="light" type="light" sticky>
+    <b-navbar toggleable="md" class="header" variant="white" type="light" sticky>
 
       <!-- Brand part -->
       <b-navbar-brand href="#" class="brand">
@@ -76,15 +76,18 @@ $brand-size:50px;
   }
 }
 
-.header {
-  padding-bottom: 1rem;
-}
-
 body {
   padding-top: 2.5rem
 }
 
 nav.header {
+  /*
+  ** Add space between header and content
+  */
+  padding-bottom: 1rem;
+  /*
+  ** Remove navbar left & right padding
+  */
   padding-left: 0px;
   padding-right: 0px;
 }
