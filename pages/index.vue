@@ -9,8 +9,8 @@
       <h2>Resume</h2>
       <b-row class="justify-content-center">
         <b-col cols="auto">
-          <b-button variant="primary" href="#">Resume
-            <i class="material-icons">file_download</i>
+          <b-button variant="primary" size="sm" :href="resume.href" class="resume">{{ resume.text}}
+            <i class="material-icons align-middle">{{ resume.icon }}</i>
           </b-button>
         </b-col>
       </b-row>
@@ -58,3 +58,13 @@ export default {
   layout: 'personal-site'
 }
 </script>
+
+<style lang="scss" scoped>
+$button-icon:1.2em;
+
+.resume {
+  i.material-icons {
+    font-size: $button-icon;
+  }
+}
+</style>
