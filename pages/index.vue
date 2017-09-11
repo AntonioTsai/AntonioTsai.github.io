@@ -69,8 +69,10 @@ export default {
 $button-icon:1.2em;
 
 .info>div:first-child {
-  border-right: 1px solid;
-  border-right-color: rgba(0, 0, 0, .1);
+  @media screen and (min-width: 992px) {
+    border-right: 1px solid;
+    border-right-color: rgba(0, 0, 0, .1);
+  }
 }
 
 .resume {
