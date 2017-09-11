@@ -7,7 +7,7 @@
       </template>
 
       <hr class="mx-5 my-4">
-      <b-row>
+      <b-row class="info">
         <b-col cols="12" lg="6">
           <h2>Contact</h2>
           <b-row class="justify-content-center">
@@ -71,6 +71,11 @@ export default {
 
 <style lang="scss" scoped>
 $button-icon:1.2em;
+
+.info>div:first-child {
+  border-right: 1px solid;
+  border-right-color: rgba(0, 0, 0, .1);
+}
 
 .resume {
   i.material-icons {
